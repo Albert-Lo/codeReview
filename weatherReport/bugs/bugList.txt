@@ -1,0 +1,9 @@
+1. use Root scope to send things to view, what is the difference
+2. Also you can use $rootScope to share information
+between the parts of the app
+3.
+
+
+
+
+

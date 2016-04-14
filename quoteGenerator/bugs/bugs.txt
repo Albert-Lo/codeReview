@@ -1,0 +1,13 @@
+I set up the angular site and the index, but 
+text is not generating, even though the controler has been imported
+-i did ng-click="quote.generate" withtout the generate(), which means that the function was never callled
+
+2. object of not defined, the problem here was that i was 
+generating a floating point number and not an integer
+
+3. This is why I was running into issues
+
+
+
+
+

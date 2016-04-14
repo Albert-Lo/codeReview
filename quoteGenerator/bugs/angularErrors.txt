@@ -1,0 +1,14 @@
+1. I was getting lots of errors with, assigning and change variables such as
+-cannot assign to read only 
+-interpolation error 
+-Not an object, the best way to resolve all of these 
+errors for me was to stay consistent with $scope and this
+
+Just use and change $scope, also set values for $scope within the 
+local function calls
+
+
+ 21       //this.text = $scope.quote;
+ 22       //this.author = "Chuck Norris";
+
+This for example broke, so i just used scope to stay consistent
