@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tribute Page to Richard P. Feynman</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src= "app/src/controllers/timeline.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="public/css/tribute.css">
+</head>
+
+<body ng-app="tributeApp" ng-controller="TimelineCtrl">
+  <div class="wrapper">
+    <tr class="col-mid-12">
+      <div class="container">
+          <div id="titleBlock">
+            <h1> Dr. Feynman </h1>
+            <h3> Physics Master and Mentor <h3> 
+          </div>
+      </div>
+      <div class="container">
+          <div id="tributeImage">
+            <div class="fill">
+              <img src="http://media.gettyimages.com/photos/feynman-was-a-theoretical-physicist-whose-work-on-the-development-of-picture-id90732446">
+            </div>
+              <div class="desc">
+                Feynman at this best in the Classroom
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="quote">
+            <h2> "See that the imagination of nature is far, far greater than the imagination of man. </h2>
+          </div>
+      </div>
+      <div class="container">
+          <div id="timeLine">
+            <h2> Timeline of Feynman's Life <h2>
+              <ul class="information">
+                <li ng-repeat="event in events.data">
+                  <span> {{event.date}} </span>
+                  <p> {{event.description}} </p>
+                </li>
+              </ul>
+          </div>
+        </div>
+      <div class="container">
+        <div class="quote">
+          <h2> "The Ending Quote"</h2>
+        </div>
+      </div>
+    </tr>
+  </div>
+</body>
+<html>

@@ -1,0 +1,27 @@
+1. Doublie clicking the HTML link does 
+not show anything in the browser
+-The braces were not closed properly
+
+2. Rendered but the angular data was not showing
+-Look at the console, see that there was an import error it could not find the file 
+-Look at the console, see that there error was due to bad filtering
+
+3. How to control the width of elements 
+-Use bootstrap, and then 
+<div class-"col-md-6">
+
+4. How to center a div element on the page 
+
+5. The End quote does not appear after the timeline
+-I wrapped everything in a div container class, and 
+after the over flowing stopped, I added everything to a large div class
+
+6.
+
+
+
+
+
+
+
+

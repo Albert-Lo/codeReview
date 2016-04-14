@@ -1,0 +1,46 @@
+body {
+  background-color: #BCE27F;
+}
+
+h1, h3 {
+  color: black;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: #96B566;
+}
+
+.container {
+  background-color: #C3C3C3;
+}
+
+#titleBlock {
+  margin: 0 auto;
+}
+
+#tributeImage {
+  height: 25;
+}
+
+#quote {
+  color: black;
+}
+
+.fill {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden
+}
+
+.fill img {
+  flex-shrink:0;
+  min-width:100%;
+  min-height:100%
+}
+
+#timeLine {
+  background-color: #C3C3C3;
+  margin: 0 auto;
+}
